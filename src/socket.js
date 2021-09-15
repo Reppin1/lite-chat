@@ -1,5 +1,5 @@
-import io from "socket.io-client";
+import io from 'socket.io-client';
 
-const socket = io('http://localhost:3001', { transports: ['websocket'] })
+const socket = io('http://localhost:9999');
 
-export { socket }
+export default socket;
